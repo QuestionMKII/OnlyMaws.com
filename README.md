@@ -1,2 +1,0 @@
-# OnlyMaws.com
-OnlyMaws
