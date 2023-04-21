@@ -1,3 +1,3 @@
-source: ['Pages']
+source: ./Pages
 gist:
   noscript: false
