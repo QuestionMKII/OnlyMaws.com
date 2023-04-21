@@ -50,7 +50,7 @@ p {
 /* =========== MAIN HEADER =========== */
 
 .header {
-    background-image: url("./Assets/Header.png");
+    background-image: url("./RootAssets/Header.png");
     width: 100%;
     height: 800px;
 }
@@ -107,7 +107,7 @@ p {
 /* =========== YOUTUBE EMBED =========== */
 
 .youtubeEmbedContainer {
-    background-image: url("./Assets/YoutubeBackground.png");
+    background-image: url("./RootAssets/YoutubeBackground.png");
     /* background-color: aqua; */
     width: 100%;
     height: 800px;
