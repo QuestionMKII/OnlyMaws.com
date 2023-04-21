@@ -1,3 +1,4 @@
-source: ./Pages
+include: [Pages]
+source: [Pages]
 gist:
   noscript: false
