@@ -10,6 +10,11 @@ p {
     font-weight: 600;
     text-align: center;
 }
+
+a:link {
+    text-decoration: none;
+}
+
 /* =========== STICKY HEADER =========== */
 .stickyHeader {
     background-color: white;
@@ -47,10 +52,15 @@ p {
     padding-bottom: 50px;
 }
 
+.lowerContent {
+    background-color: #aaaaaa;
+}
+
 /* =========== MAIN HEADER =========== */
 
 .header {
     background-image: url("./Assets/Header.png");
+    background-size: cover;
     width: 100%;
     height: 800px;
 }
@@ -67,6 +77,31 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.headerContent div:hover {
+    background-color: #009e4a;
+}
+
+.headerContent h1 {
+    color: white;
+}
+
+.headerContent p {
+    color: white;
+}
+
+.buyNowButton {
+    background-color: #02cf61;
+    border-radius: 25px;
+    border-color: #009e4a;
+    border-width: 5px;
+    border-style: solid;
+    padding: 0 20px 0 20px;
+}
+
+.buyNowButton p {
+    color: white;
 }
 
 /* =========== INTRO =========== */
@@ -126,6 +161,7 @@ p {
 .bottomLinks { /* uWu */
     display: flex;
     flex-direction: row;
+    flex: 1;
 }
 
 .bottomLinkContainer {
@@ -133,10 +169,11 @@ p {
     display: flex;
     flex-direction: column;
     margin: 0 5px;
+    min-width: 0;
 }
 
 .bottomLinkContainer img {
-    width: 100%;
+    flex: 1;
 }
 
 /* =========== FOOTER =========== */
