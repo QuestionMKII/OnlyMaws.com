@@ -173,7 +173,9 @@ a:link {
 }
 
 .bottomLinkContainer img {
-    flex: 1;
+    display: block;
+    width: auto;
+    height: auto;
 }
 
 /* =========== FOOTER =========== */
